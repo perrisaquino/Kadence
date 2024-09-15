@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB363C492C91162600AFD01D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB363C482C91162600AFD01D /* AppDelegate.swift */; };
+		CB363C4B2C91162600AFD01D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB363C4A2C91162600AFD01D /* SceneDelegate.swift */; };
+		CB363C4D2C91162600AFD01D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB363C4C2C91162600AFD01D /* ViewController.swift */; };
+		CB363C502C91162600AFD01D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CB363C4F2C91162600AFD01D /* Base */; };
+		CB363C522C91162700AFD01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB363C512C91162700AFD01D /* Assets.xcassets */; };
+		CB363C552C91162700AFD01D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CB363C542C91162700AFD01D /* Base */; };
+		CB363C602C91162700AFD01D /* Kadence_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB363C5F2C91162700AFD01D /* Kadence_TestTests.swift */; };
+		CB363C6A2C91162800AFD01D /* Kadence_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB363C692C91162800AFD01D /* Kadence_TestUITests.swift */; };
+		CB363C6C2C91162800AFD01D /* Kadence_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB363C6B2C91162800AFD01D /* Kadence_TestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB363C5C2C91162700AFD01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB363C3D2C91162600AFD01D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB363C442C91162600AFD01D;
+			remoteInfo = "Kadence Test";
+		};
+		CB363C662C91162800AFD01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB363C3D2C91162600AFD01D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB363C442C91162600AFD01D;
+			remoteInfo = "Kadence Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB363C452C91162600AFD01D /* Kadence Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadence Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB363C482C91162600AFD01D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB363C4A2C91162600AFD01D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB363C4C2C91162600AFD01D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB363C4F2C91162600AFD01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB363C512C91162700AFD01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB363C542C91162700AFD01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB363C562C91162700AFD01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB363C5B2C91162700AFD01D /* Kadence TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadence TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB363C5F2C91162700AFD01D /* Kadence_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadence_TestTests.swift; sourceTree = "<group>"; };
+		CB363C652C91162800AFD01D /* Kadence TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadence TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB363C692C91162800AFD01D /* Kadence_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadence_TestUITests.swift; sourceTree = "<group>"; };
+		CB363C6B2C91162800AFD01D /* Kadence_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadence_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB363C422C91162600AFD01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB363C582C91162700AFD01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB363C622C91162800AFD01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB363C3C2C91162600AFD01D = {
+			isa = PBXGroup;
+			children = (
+				CB363C472C91162600AFD01D /* Kadence Test */,
+				CB363C5E2C91162700AFD01D /* Kadence TestTests */,
+				CB363C682C91162800AFD01D /* Kadence TestUITests */,
+				CB363C462C91162600AFD01D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB363C462C91162600AFD01D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB363C452C91162600AFD01D /* Kadence Test.app */,
+				CB363C5B2C91162700AFD01D /* Kadence TestTests.xctest */,
+				CB363C652C91162800AFD01D /* Kadence TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB363C472C91162600AFD01D /* Kadence Test */ = {
+			isa = PBXGroup;
+			children = (
+				CB363C482C91162600AFD01D /* AppDelegate.swift */,
+				CB363C4A2C91162600AFD01D /* SceneDelegate.swift */,
+				CB363C4C2C91162600AFD01D /* ViewController.swift */,
+				CB363C4E2C91162600AFD01D /* Main.storyboard */,
+				CB363C512C91162700AFD01D /* Assets.xcassets */,
+				CB363C532C91162700AFD01D /* LaunchScreen.storyboard */,
+				CB363C562C91162700AFD01D /* Info.plist */,
+			);
+			path = "Kadence Test";
+			sourceTree = "<group>";
+		};
+		CB363C5E2C91162700AFD01D /* Kadence TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB363C5F2C91162700AFD01D /* Kadence_TestTests.swift */,
+			);
+			path = "Kadence TestTests";
+			sourceTree = "<group>";
+		};
+		CB363C682C91162800AFD01D /* Kadence TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB363C692C91162800AFD01D /* Kadence_TestUITests.swift */,
+				CB363C6B2C91162800AFD01D /* Kadence_TestUITestsLaunchTests.swift */,
+			);
+			path = "Kadence TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB363C442C91162600AFD01D /* Kadence Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB363C6F2C91162800AFD01D /* Build configuration list for PBXNativeTarget "Kadence Test" */;
+			buildPhases = (
+				CB363C412C91162600AFD01D /* Sources */,
+				CB363C422C91162600AFD01D /* Frameworks */,
+				CB363C432C91162600AFD01D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kadence Test";
+			productName = "Kadence Test";
+			productReference = CB363C452C91162600AFD01D /* Kadence Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB363C5A2C91162700AFD01D /* Kadence TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB363C722C91162800AFD01D /* Build configuration list for PBXNativeTarget "Kadence TestTests" */;
+			buildPhases = (
+				CB363C572C91162700AFD01D /* Sources */,
+				CB363C582C91162700AFD01D /* Frameworks */,
+				CB363C592C91162700AFD01D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB363C5D2C91162700AFD01D /* PBXTargetDependency */,
+			);
+			name = "Kadence TestTests";
+			productName = "Kadence TestTests";
+			productReference = CB363C5B2C91162700AFD01D /* Kadence TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB363C642C91162800AFD01D /* Kadence TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB363C752C91162800AFD01D /* Build configuration list for PBXNativeTarget "Kadence TestUITests" */;
+			buildPhases = (
+				CB363C612C91162800AFD01D /* Sources */,
+				CB363C622C91162800AFD01D /* Frameworks */,
+				CB363C632C91162800AFD01D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB363C672C91162800AFD01D /* PBXTargetDependency */,
+			);
+			name = "Kadence TestUITests";
+			productName = "Kadence TestUITests";
+			productReference = CB363C652C91162800AFD01D /* Kadence TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB363C3D2C91162600AFD01D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CB363C442C91162600AFD01D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CB363C5A2C91162700AFD01D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CB363C442C91162600AFD01D;
+					};
+					CB363C642C91162800AFD01D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CB363C442C91162600AFD01D;
+					};
+				};
+			};
+			buildConfigurationList = CB363C402C91162600AFD01D /* Build configuration list for PBXProject "Kadence Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB363C3C2C91162600AFD01D;
+			productRefGroup = CB363C462C91162600AFD01D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB363C442C91162600AFD01D /* Kadence Test */,
+				CB363C5A2C91162700AFD01D /* Kadence TestTests */,
+				CB363C642C91162800AFD01D /* Kadence TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB363C432C91162600AFD01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB363C522C91162700AFD01D /* Assets.xcassets in Resources */,
+				CB363C552C91162700AFD01D /* Base in Resources */,
+				CB363C502C91162600AFD01D /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB363C592C91162700AFD01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB363C632C91162800AFD01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB363C412C91162600AFD01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB363C4D2C91162600AFD01D /* ViewController.swift in Sources */,
+				CB363C492C91162600AFD01D /* AppDelegate.swift in Sources */,
+				CB363C4B2C91162600AFD01D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB363C572C91162700AFD01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB363C602C91162700AFD01D /* Kadence_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB363C612C91162800AFD01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB363C6C2C91162800AFD01D /* Kadence_TestUITestsLaunchTests.swift in Sources */,
+				CB363C6A2C91162800AFD01D /* Kadence_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB363C5D2C91162700AFD01D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB363C442C91162600AFD01D /* Kadence Test */;
+			targetProxy = CB363C5C2C91162700AFD01D /* PBXContainerItemProxy */;
+		};
+		CB363C672C91162800AFD01D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB363C442C91162600AFD01D /* Kadence Test */;
+			targetProxy = CB363C662C91162800AFD01D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB363C4E2C91162600AFD01D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB363C4F2C91162600AFD01D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB363C532C91162700AFD01D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB363C542C91162700AFD01D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB363C6D2C91162800AFD01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB363C6E2C91162800AFD01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB363C702C91162800AFD01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXHDV9THFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kadence Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaydence-App.Kadence-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB363C712C91162800AFD01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXHDV9THFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kadence Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaydence-App.Kadence-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB363C732C91162800AFD01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXHDV9THFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaydence-App.Kadence-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadence Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kadence Test";
+			};
+			name = Debug;
+		};
+		CB363C742C91162800AFD01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXHDV9THFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaydence-App.Kadence-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadence Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kadence Test";
+			};
+			name = Release;
+		};
+		CB363C762C91162800AFD01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXHDV9THFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaydence-App.Kadence-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kadence Test";
+			};
+			name = Debug;
+		};
+		CB363C772C91162800AFD01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXHDV9THFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaydence-App.Kadence-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kadence Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB363C402C91162600AFD01D /* Build configuration list for PBXProject "Kadence Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB363C6D2C91162800AFD01D /* Debug */,
+				CB363C6E2C91162800AFD01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB363C6F2C91162800AFD01D /* Build configuration list for PBXNativeTarget "Kadence Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB363C702C91162800AFD01D /* Debug */,
+				CB363C712C91162800AFD01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB363C722C91162800AFD01D /* Build configuration list for PBXNativeTarget "Kadence TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB363C732C91162800AFD01D /* Debug */,
+				CB363C742C91162800AFD01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB363C752C91162800AFD01D /* Build configuration list for PBXNativeTarget "Kadence TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB363C762C91162800AFD01D /* Debug */,
+				CB363C772C91162800AFD01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB363C3D2C91162600AFD01D /* Project object */;
+}
